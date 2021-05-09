@@ -11,6 +11,10 @@
 		EFC63137264794CF00D33A75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC63136264794CF00D33A75 /* ContentView.swift */; };
 		EFC63139264794D200D33A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC63138264794D200D33A75 /* Assets.xcassets */; };
 		EFC6313C264794D200D33A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC6313B264794D200D33A75 /* Preview Assets.xcassets */; };
+		EFC6314526479A6800D33A75 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6314426479A6800D33A75 /* NetworkManager.swift */; };
+		EFC6314726479E6100D33A75 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6314626479E6100D33A75 /* PostData.swift */; };
+		EFC6314A2647F61300D33A75 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC631492647F61300D33A75 /* DetailView.swift */; };
+		EFC6314C2648239100D33A75 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6314B2648239100D33A75 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		EFC63138264794D200D33A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC6313B264794D200D33A75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFC6313D264794D200D33A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC6314426479A6800D33A75 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EFC6314626479E6100D33A75 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		EFC631492647F61300D33A75 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EFC6314B2648239100D33A75 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EFC63134264794CF00D33A75 /* HackNewsSwiftUIApp.swift */,
-				EFC63136264794CF00D33A75 /* ContentView.swift */,
+				EFC631482647F5F900D33A75 /* Views */,
+				EFC6314326479A1E00D33A75 /* Models */,
 				EFC63138264794D200D33A75 /* Assets.xcassets */,
 				EFC6313D264794D200D33A75 /* Info.plist */,
 				EFC6313A264794D200D33A75 /* Preview Content */,
@@ -67,6 +76,25 @@
 				EFC6313B264794D200D33A75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFC6314326479A1E00D33A75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFC6314426479A6800D33A75 /* NetworkManager.swift */,
+				EFC6314626479E6100D33A75 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFC631482647F5F900D33A75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFC63136264794CF00D33A75 /* ContentView.swift */,
+				EFC631492647F61300D33A75 /* DetailView.swift */,
+				EFC6314B2648239100D33A75 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC6314526479A6800D33A75 /* NetworkManager.swift in Sources */,
+				EFC6314726479E6100D33A75 /* PostData.swift in Sources */,
 				EFC63137264794CF00D33A75 /* ContentView.swift in Sources */,
+				EFC6314C2648239100D33A75 /* WebView.swift in Sources */,
+				EFC6314A2647F61300D33A75 /* DetailView.swift in Sources */,
 				EFC63135264794CF00D33A75 /* HackNewsSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
